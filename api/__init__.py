@@ -14,7 +14,7 @@ from api.models.message import Message
 # ============ Import Views ============
 from api.views.auth import auth
 from api.views.profiles import profiles
-from api.views.message import messages
+from api.views.messages import messages
 
 
 cors = CORS()
